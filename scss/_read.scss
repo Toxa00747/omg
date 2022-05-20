@@ -1,0 +1,19 @@
+.read {
+    display: flex;
+    width: 127px;
+    position: relative;
+    &__text {
+        color: $yellow;
+        font-weight: $fwBold;
+        font-size: $fzSubtitle;
+        line-height: $lhSubtitle;
+    }
+
+    &__img {
+        position: absolute;
+        margin: 0px 0px 0px 10px;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
+    }
+}

@@ -1,0 +1,20 @@
+.subtitle {
+    display: flex;
+    align-items: center;
+    &__stick {
+        margin: 0px 32px 0px 0px;
+        background: $yellow;
+        width: 72px;
+        height: 2px;
+    }
+
+    &__text {
+        font-size: $fzSubtitle;
+        line-height: $lhSubtitle;
+        color: $yellow;
+        text-transform: uppercase;
+    }
+    &__stick2 {
+        margin: 0px 0px 0px 32px;
+    }
+}

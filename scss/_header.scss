@@ -1,0 +1,189 @@
+.header {
+    position: relative;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1750px;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        margin: 0px 50px 0px 50px;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 64px 0px 0px 0px;
+        z-index: 2;
+    }
+
+    &__logo {
+        color: $white;
+        font-size: $fzLogo;
+        line-height: $lhLogo;
+    }
+
+    &__menu {
+        
+    }
+
+    &__label {
+        display: flex;
+    }
+
+    &__search-icon {
+        margin: 0px 14px 0px 0px;
+    }
+
+    &__input {
+        background: rgba( 255,0,0,.0);
+        color: $white;
+        outline: none;
+        font-weight: $fwNormal;
+        font-size: $fzButton;
+        line-height: $lhButton;
+        width: 120px;
+        margin: 0px 30px 0px 0px;
+        &::placeholder { 
+            color: #D1D1D1;
+        }
+        &:focus{
+            color: #D1D1D1;
+        }
+    }
+
+    &__main {
+        margin: 134px 0px 0px 0px;
+        display: flex;
+        z-index: 3;
+    }
+
+    &__follow {
+        margin: 72px 0px 0px 0px;
+    }
+
+    &__content {
+        position: relative;
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    &__subtitle {
+    }
+
+    &__stick {
+        background: $lightorange;
+    }
+
+    &__subtitle-text {
+        color: $lightorange;
+    }
+
+    &__title {
+        margin: 32px 0px 0px 0px;
+        font-size: 96px;
+        line-height: 100/96*100%;
+        .not-bold{
+            font-weight: $fwNormal;
+            line-height: 100/88*100%;
+        }
+    }
+
+    &__scroll {
+        margin: 125px 0px 874px 0px;
+    }
+
+    &__bg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    @media (max-width:1100px){
+        &__content {
+            max-width: 475px;
+        }
+    }
+    @media (max-width:620px){
+        &__top {
+            margin: 30px 0px 0px 0px;
+        }
+    }
+    
+    
+}
+.menu {
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        &:not(:last-child){
+            margin: 0px 50px 0px 0px;
+        }
+    }
+
+    &__link {
+        color: $white;
+        font-weight: $fwSemibold;
+    }
+
+    @media (max-width:$breapkoint767){
+        &__item {
+            &:not(:last-child){
+                margin: 0px 20px 0px 0px;
+            }
+        }
+    }
+    
+    @media (max-width:620px){
+        &__list {
+            display: flex;
+            flex-direction: column;
+        }
+        &__item:not(:last-child) {
+            padding: 0px 0px 10px 0px;
+            margin: 0px 0px 0px 0px;
+        }
+        
+    }
+}
+.follow {
+    &__text {
+    writing-mode: vertical-rl;
+        white-space: nowrap;
+    }
+
+    &__icons {
+    }
+
+    &__icon {
+        margin: 20px 0px 0px 0px;
+    }
+}
+.subtitle {
+
+    &__stick {
+    }
+
+    &__text {
+    }
+}
+.not-bold {
+}
+.scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__text {
+    }
+
+    &__img {
+        margin: 0px 0px 0px 10px;
+    }
+}
+

@@ -1,0 +1,42 @@
+// Container & Breakpoints
+$containerWidth: 1460px;
+$breapkoint1450: 1449.98 + px;
+$breapkoint992: 991.98 + px;
+$breapkoint767: 767.98 + px;
+$breapkoint480: 479.98 + px;
+
+// Colors
+$lightorange: #FFC178;
+$orange: #FFA343;
+$yellow: #FBD784;
+$white: #ffffff;
+$black: #000000;
+
+// Burger Menu
+$burgerBreakpoint: $breapkoint992;
+$burgerColor: 'black';
+$burgerActiveColor: 'white';
+
+// Fonts
+$ffOpenSans: "Open Sans";
+$ffDMSans: "DM Sans";
+$ffRoboto: "Roboto";
+
+$fwLight: 300;
+$fwNormal: 400;
+$fwSemibold: 600;
+$fwBold: 700;
+
+$fzName: 96px;
+$fzTitle: 64px;
+$fzText: 18px;
+$fzSubtitle: 18px;
+$fzLogo: 24px;
+$fzButton: 17px;
+
+$lhName: 100/96*100%;
+$lhTitle: 87/64*100%;
+$lhText: 32/18*100%;
+$lhSubtitle: 25/18*100%;
+$lhLogo: 33/24*100%;
+$lhButton: 23/17*100%;
